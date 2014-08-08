@@ -1,0 +1,301 @@
+.footerSlider {
+    width: 95%;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.footerSlider .slider {
+    width: 100%;
+    height: 100%;
+}
+.footerSlider .slider a{
+    display: block;
+    width: 20%;
+    line-height: 140px;
+    opacity: 0.4;
+}
+.footerSlider .slider a:hover{
+    opacity: 1;
+}
+.footerSlider .slider .item {
+    text-align: center;
+    height: 150px;
+}
+.footerSlider .slider .item img{
+    max-width: 100%;
+    
+}
+.nextButtonF{
+    position: absolute;
+    left: 0px;
+    top: 60px;
+    width: 28px;
+    height: 32px;
+    background: url(../img/partners/arr-left.png) no-repeat 100% 0;
+    background-position: center center;
+    z-index: 2;
+    border-radius: 3px 0 0 3px;
+}
+.prevButtonF{
+    position: absolute;
+    right: 0px;
+    top: 60px;
+    width: 28px;
+    height: 32px;
+    background: url(../img/partners/arr-right.png) no-repeat 100% 0;
+    background-position: center center;
+    z-index: 2;
+    border-radius: 0 3px 3px 0;
+}
+.prevButtonF:hover{
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.42);
+}
+.nextButtonF:hover{
+    box-shadow: -1px 1px 3px 0 rgba(0, 0, 0, 0.42);
+}
+.sliderSide{
+    position: relative;
+    padding-bottom: 20px;
+}
+/* jssor slider bullet navigator skin 05 css */
+/*
+.jssorb05 div           (normal)
+.jssorb05 div:hover     (normal mouseover)
+.jssorb05 .av           (active)
+.jssorb05 .av:hover     (active mouseover)
+.jssorb05 .dn           (mousedown)
+*/
+.jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+    overflow: hidden;
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    margin: 0 10px 0 0;
+}
+
+.jssorb05 div {
+    background-image: url("../img/bull.png");
+    background-repeat: no-repeat;
+}
+
+.jssorb05 div:hover, .jssorb05 .av:hover {
+    background-image: url("../img/selected-bull.png");
+    background-repeat: no-repeat;
+}
+
+.jssorb05 .av {
+    background-image: url("../img/selected-bull.png");
+    background-repeat: no-repeat;
+}
+
+.jssorb05 .dn, .jssorb05 .dn:hover {
+    background-image: url("../img/bull.png");
+    background-repeat: no-repeat;
+}
+/* jssor slider arrow navigator skin 12 css */
+/*
+.jssora12l              (normal)
+.jssora12r              (normal)
+.jssora12l:hover        (normal mouseover)
+.jssora12r:hover        (normal mouseover)
+.jssora12ldn            (mousedown)
+.jssora12rdn            (mousedown)
+*/
+.jssora12l, .jssora12r, .jssora12ldn, .jssora12rdn {
+    position: absolute;
+    cursor: pointer;
+    display: block;
+    overflow: hidden;
+}
+
+.jssora12l {
+    background: url(../img/arr_left.png) no-repeat 0 0;
+    background-position: center center;
+    background-color: #939497;
+    border-radius: 3px 0 0 3px;
+}
+
+.jssora12r {
+    background: url(../img/arr_right.png) no-repeat 100% 0;
+    background-position: center center;
+    background-color: #939497;
+    border-radius: 0 3px 3px 0;
+}
+
+.jssora12l:hover {
+    background: url(../img/arr_left_hover.png) no-repeat;
+    background-position: center center;
+    background-color: #939497;
+    border-radius: 3px 0 0 3px;
+}
+
+.jssora12r:hover {
+    background: url(../img/arr_right_hover.png) no-repeat 100% 0;
+    background-position: center center;
+    background-color: #939497;
+    border-radius: 0 3px 3px 0;
+}
+
+.jssora12ldn {
+    background: url(../img/arr_left.png) no-repeat 0 0;
+    background-position: center center;
+    background-color: #939497;
+    border-radius: 3px 0 0 3px;
+}
+
+.jssora12rdn {
+    background: url(../img/arr_right.png) no-repeat 100% 0;
+    background-position: center center;
+    background-color: #939497;
+    border-radius:  0 3px 3px 0;
+}
+
+/* jssor slider arrow navigator skin 03 css */
+/*
+.jssora03l              (normal)
+.jssora03r              (normal)
+.jssora03l:hover        (normal mouseover)
+.jssora03r:hover        (normal mouseover)
+.jssora03ldn            (mousedown)
+.jssora03rdn            (mousedown)
+*/
+.jssora03l, .jssora03r, .jssora03ldn, .jssora03rdn
+{
+    position: absolute;
+    cursor: pointer;
+    display: block;
+    overflow:hidden;
+    top:50%;
+}
+.jssora03l {
+    background-image: url("../img/arr_left1_prod.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    left: 0px;
+}
+.jssora03r { 
+    background-image: url("../img/arr_left_prod.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    right: 0px;
+}
+.jssora03l:hover { 
+    border-radius: 5px 0 0 5px;
+    box-shadow: -1px 1px 3px 0 rgba(0, 0, 0, 0.4);
+}
+.jssora03r:hover {
+    border-radius: 0 5px 5px 0;
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.4);
+}
+.jssora03ldn { 
+    background-image: url("../img/arr_left1_prod.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    left: 0px;
+}
+.jssora03rdn { 
+    background-image: url("../img/arr_left_prod.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    right: 0px;
+}
+/**  modal slider  **/
+.doubleSlider-1 {
+    width: 440px;
+    height: 440px;
+    margin:0 auto;
+    margin-bottom: 10px;
+}
+
+
+.doubleSlider-1 .slider {
+    width: 100%;
+    height: 100%;
+}
+
+.doubleSlider-1 .slider .item {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 440px;
+    height: 440px;
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+    overflow: hidden;
+    padding-top: 5px;
+}
+.doubleSlider-1 .slider .item img{
+    width: 425px;
+    height: 425px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+.doubleSliderNextButton{
+    position: absolute;
+    left: 0px;
+    top:34%;
+    width: 28px; 
+    height: 32px;
+    background: url(../img/arr_left1_prod.png) no-repeat 100% 0;
+    background-position: center center;
+    z-index: 2;
+}
+.doubleSliderPrevButton{
+    position: absolute;
+    right: 0px;
+    top:34%;
+    width: 28px;
+    height: 32px;
+    background: url(../img/arr_left_prod.png) no-repeat 100% 0;
+    background-position: center center;
+    z-index: 2;
+}
+.doubleSliderNextButton:hover{
+   border-radius: 5px 0 0 5px;
+    box-shadow: -1px 1px 3px 0 rgba(0, 0, 0, 0.4);
+}
+.doubleSliderPrevButton:hover{
+    border-radius: 0 5px 5px 0;
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.4);
+}
+.doubleSlider-2 {
+    float: left;
+    margin: 0;
+    width: 425px !important;
+    height: 100px;
+    margin-left: 20px;
+}
+
+.doubleSlider-2 .slider {
+    width: 425px;
+    height: 100%;
+}
+
+.doubleSlider-2 .button {
+    float: left;
+    margin: 0;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding-top: 3px;
+    	
+}
+.doubleSlider-2 .button img{
+    width: 90px;
+    height: 90px;
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+}
+.doubleSlider-2 .selected img{
+     border:1px solid #d35a2a;
+
+}
+.navigations{
+    position: relative;
+    height: 100px;
+    width: 510px;
+    margin: 0px auto;
+    padding: 0px 28px;
+}
