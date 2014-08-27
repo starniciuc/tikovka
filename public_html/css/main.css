@@ -750,9 +750,13 @@ a.consult span{
 .produs-img{
     border-radius: 5px;
     box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.5);
+    background-color: #FFF;
+    text-align: center;
+    height: 228px;
 }
 .produs-img img{
-    width: 100%;
+    max-width: 100%;
+    max-height: 228px;
     border-radius: 5px;
 }
 .produs-block .link-to{
